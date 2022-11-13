@@ -1,0 +1,49 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "clean": "rimraf node_modules",
+    "list:react": "yarn list --pattern react",
+    "list:react-dom": "yarn list --pattern react-dom",
+    "list:styled-components": "yarn list --pattern styled-components",
+    "list:all": "yarn list:react && yarn list:react-dom && yarn list:styled-components"
+  },
+  "dependencies": {
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.8",
+    "@udecode/plate": "1.1.8",
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.3",
+    "next": "13.0.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-is": "^18.2.0",
+    "reactour": "^1.18.7",
+    "rimraf": "^3.0.2",
+    "slate": "0.65.3",
+    "slate-history": "0.65.3",
+    "slate-hyperscript": "0.62.0",
+    "slate-react": "0.65.3",
+    "styled-components": "5.1.1",
+    "typescript": "4.8.4"
+  },
+  "devDependencies": {
+    "@types/reactour": "^1.18.2"
+  },
+  "resolutions": {
+    "styled-components": "5.1.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=18.0.0"
+  },
+  "packageManager": "yarn@1.22.19"
+}
